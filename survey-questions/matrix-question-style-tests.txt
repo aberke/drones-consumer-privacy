@@ -1,0 +1,491 @@
+[[AdvancedFormat]]
+
+[[Block:style tests]]
+
+
+[[Question: Matrix]]
+[[ID:Q_v1_gf1_gt1_df1_dt1_dp1]]
+
+<style>
+.test-style {
+    border: 1px solid red;
+}
+table.choices-table {
+    width: 100%!important;
+    border: 1px solid black;
+    border-collapse: collapse!important;
+    font-size: 0.9em;
+}
+table.choices-table tr td {
+    padding: 1px;
+    border-left: 1px solid black;
+}
+
+.choices-table td:nth-child(1) {
+    width: 180px;
+    text-align: left!important;
+    padding-left: 3px;
+}
+.choices-table td:nth-child(2),
+.choices-table td:nth-child(3) {
+    width: 270px;
+}
+
+.choices-table tr {
+    border-bottom: 1px solid black;
+}
+.choices-table tr:first-child {
+    border-bottom: none;
+    font-weight: bold;
+}
+.choices-table tr:nth-child(2) {
+    font-weight: bold;
+}
+</style>
+
+Version 1: There is a table in the question body that is aligned using CSS to match with the question answer choices.
+
+<br/>
+<br/>
+
+<p>Suppose you order X for delivery to your home.</p>
+<p>Given the following delivery options, which one would you prefer?</p>
+
+<br/>
+<br/>
+
+<table class="choices-table">
+<tbody>
+    <tr>
+        <td>&nbsp;</td>
+        <td>
+            <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/CP/Graphic.php?IM=IM_3rQUrJLUQ6syLmC" />
+        </td>
+        <td>
+            <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9XgV6C1HkKFFvM2" />
+        </td>
+    </tr>
+    <tr>
+        <td>Option</td>
+        <td>Ground vehicle</td>
+        <td>Drone</td>
+    </tr>
+    <tr>
+        <td>Delivery fee</td>
+        <td>$XX</td>
+        <td>$YY</td>
+    </tr>
+    <tr>
+        <td>Delivery wait time</td>
+        <td>ZZ minutes</td>
+        <td>WW minutes</td>
+    </tr>
+    <tr>
+        <td>Privacy</td>
+        <td>&nbsp;</td>
+        <td>YES privacy</td>
+    </tr>
+</tbody>
+</table>
+
+[[AdvancedChoices]]
+[[Choice]]
+Preference
+
+[[AdvancedAnswers]]
+[[Answer:0]]
+<p>&nbsp;</p>
+
+[[Answer:1]]
+<p>&nbsp;</p>
+
+
+[[PageBreak]]
+
+[[Question: Matrix]]
+[[ID:Q_2]]
+
+<style>
+.test-style {
+    border: 1px solid red;
+}
+table.choices-table {
+    width: 100%!important;
+    border: 1px solid black;
+    border-collapse: collapse!important;
+    font-size: 0.9em;
+}
+table.choices-table tr td {
+    padding: 1px;
+    border-left: 1px solid black;
+}
+
+.choices-table td:nth-child(1) {
+    width: 180px;
+    text-align: left!important;
+    padding-left: 3px;
+}
+.choices-table td:nth-child(2),
+.choices-table td:nth-child(3) {
+    width: 270px;
+}
+
+.choices-table tr {
+    border-bottom: 1px solid black;
+}
+.choices-table tr:first-child {
+    border-bottom: none;
+    font-weight: bold;
+}
+.choices-table tr:nth-child(2) {
+    font-weight: bold;
+}
+</style>
+
+
+
+
+Version 2: just like version 1 but with choice clarified at answer radio button.
+
+<br/>
+<br/>
+
+<p>Suppose you order X for delivery to your home.</p>
+<p>Given the following delivery options, which one would you prefer?</p>
+
+<br/>
+<br/>
+
+<table class="choices-table">
+<tbody>
+    <tr>
+        <td>&nbsp;</td>
+        <td>
+            <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/CP/Graphic.php?IM=IM_3rQUrJLUQ6syLmC" />
+        </td>
+        <td>
+            <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9XgV6C1HkKFFvM2" />
+        </td>
+    </tr>
+    <tr>
+        <td>Option</td>
+        <td>Ground vehicle</td>
+        <td>Drone</td>
+    </tr>
+    <tr>
+        <td>Delivery fee</td>
+        <td>$XX</td>
+        <td>$YY</td>
+    </tr>
+    <tr>
+        <td>Delivery wait time</td>
+        <td>ZZ minutes</td>
+        <td>WW minutes</td>
+    </tr>
+    <tr>
+        <td>Privacy</td>
+        <td>&nbsp;</td>
+        <td>YES privacy</td>
+    </tr>
+</tbody>
+</table>
+
+
+[[AdvancedChoices]]
+[[Choice]]
+Preference
+
+[[AdvancedAnswers]]
+[[Answer:0]]
+<p>Ground vehicle</p>
+
+[[Answer:1]]
+<p>Drone</p>
+
+[[PageBreak]]
+
+[[Question: Matrix]]
+
+<style>
+table.answer-choice-table {
+    width: 100%!important;
+    border-collapse: collapse!important;
+}
+
+table.answer-choice-table tr:nth-child(2) td {
+    height: 35px;
+    vertical-align: top;
+    font-weight: bold;
+}
+table.answer-choice-table tr td {
+    padding: 3px 0;
+}
+table.answer-choice-table tr .value {
+    font-weight: bold;
+}
+</style>
+
+
+Version 3: The Choices each are their own table describing the options.
+<br/>
+<br/>
+
+<p>Suppose you order X for delivery to your home.</p>
+<p>Given the following delivery options, which one would you prefer?</p>
+
+
+[[AdvancedChoices]]
+[[Choice]]
+Preference
+
+[[AdvancedAnswers]]
+[[Answer:0]]
+<table class="answer-choice-table">
+<tbody>
+    <tr>
+        <td>
+        <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/CP/Graphic.php?IM=IM_3rQUrJLUQ6syLmC" />
+        </td>
+    </tr>
+    <tr>
+        <td class="value">Ground vehicle</td>
+    </tr>
+    <tr>
+        <td>Delivery fee<br/><span class="value">$XX</span></td>
+    </tr>
+    <tr>
+        <td>Delivery wait time<br/><span class="value">ZZ minutes</span></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+</tbody>
+</table>
+[[Answer:1]]
+<table class="answer-choice-table">
+<tbody>
+    <tr>
+        <td>
+        <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9XgV6C1HkKFFvM2" />
+        </td>
+    </tr>
+    <tr>
+        <td>Drone</td>
+    </tr>
+    <tr>
+        <td>Delivery fee<br/><span class="value">$XX</span></td>
+    </tr>
+    <tr>
+        <td>Delivery wait time<br/><span class="value">ZZ minutes</span></td>
+    </tr>
+    <tr>
+        <td><span class="value">YES privacy</span></td>
+    </tr>
+</tbody>
+</table>
+
+
+[[Question: Matrix]]
+[[ID: Q3_5]]
+
+<style>
+table.answer-choice-table {
+    width: 100%!important;
+    border-collapse: collapse!important;
+}
+
+table.answer-choice-table tr:nth-child(2) td {
+    height: 35px;
+    vertical-align: top;
+    font-weight: bold;
+}
+table.answer-choice-table tr td {
+    padding: 3px 0;
+}
+table.answer-choice-table tr .value {
+    font-weight: bold;
+}
+
+.no-preference-text {
+    width: 0;
+}
+</style>
+
+
+Version 3.5: Like version 3 but no preference text.
+<br/>
+<br/>
+
+<p>Suppose you order X for delivery to your home.</p>
+<p>Given the following delivery options, which one would you prefer?</p>
+
+
+[[AdvancedChoices]]
+[[Choice]]
+<span class="no-preference-text" style="width:0;">&nbsp;</p>
+
+[[AdvancedAnswers]]
+[[Answer:0]]
+<table class="answer-choice-table">
+<tbody>
+    <tr>
+        <td>
+        <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/CP/Graphic.php?IM=IM_3rQUrJLUQ6syLmC" />
+        </td>
+    </tr>
+    <tr>
+        <td class="value">Ground vehicle</td>
+    </tr>
+    <tr>
+        <td>Delivery fee<br/><span class="value">$XX</span></td>
+    </tr>
+    <tr>
+        <td>Delivery wait time<br/><span class="value">ZZ minutes</span></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+</tbody>
+</table>
+[[Answer:1]]
+<table class="answer-choice-table">
+<tbody>
+    <tr>
+        <td>
+        <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9XgV6C1HkKFFvM2" />
+        </td>
+    </tr>
+    <tr>
+        <td>Drone</td>
+    </tr>
+    <tr>
+        <td>Delivery fee<br/><span class="value">$XX</span></td>
+    </tr>
+    <tr>
+        <td>Delivery wait time<br/><span class="value">ZZ minutes</span></td>
+    </tr>
+    <tr>
+        <td><span class="value">YES privacy</span></td>
+    </tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+[[PageBreak]]
+
+[[Question: Matrix]]
+[[ID:q4]]
+
+<style>
+.test-style {
+    border: 1px solid red;
+}
+table.choices-table {
+    width: 100%!important;
+    border: 1px solid black;
+    border-collapse: collapse!important;
+    font-size: 0.9em;
+}
+table.choices-table tr td {
+    padding: 1px;
+    border-left: 1px solid black;
+}
+
+.choices-table td:nth-child(1) {
+    width: 180px;
+    text-align: left!important;
+    padding-left: 3px;
+}
+.choices-table td:nth-child(2),
+.choices-table td:nth-child(3) {
+    width: 270px;
+}
+
+.choices-table tr {
+    border-bottom: 1px solid black;
+}
+.choices-table tr:first-child {
+    border-bottom: none;
+    font-weight: bold;
+}
+.choices-table tr:nth-child(2) {
+    font-weight: bold;
+}
+
+.Skin label.QuestionText {
+    padding-bottom: 5px!important;
+}
+.Skin .QuestionBody thead {
+    display: table-footer-group;
+}
+
+</style>
+
+Version 4: 
+Like version 1: There is a table in the question body that is aligned using CSS to match with the question answer choices.
+<br/>
+Unlike version 1: There is no extra line to restate preference.
+<br/>
+Also there is CSS hacking on the qualtrics generated table to compress/move
+what would be extra whitespace to show the choice options.
+
+<br/>
+<br/>
+
+<p>Suppose you order X for delivery to your home.</p>
+<p>Given the following delivery options, which one would you prefer?</p>
+
+<br/>
+<br/>
+
+<table class="choices-table">
+<tbody>
+    <tr>
+        <td>&nbsp;</td>
+        <td>
+            <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/CP/Graphic.php?IM=IM_3rQUrJLUQ6syLmC" />
+        </td>
+        <td>
+            <img style="max-height:50px!important;" src="https://mit.co1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_9XgV6C1HkKFFvM2" />
+        </td>
+    </tr>
+    <tr>
+        <td>Option</td>
+        <td>Ground vehicle</td>
+        <td>Drone</td>
+    </tr>
+    <tr>
+        <td>Delivery fee</td>
+        <td>$XX</td>
+        <td>$YY</td>
+    </tr>
+    <tr>
+        <td>Delivery wait time</td>
+        <td>ZZ minutes</td>
+        <td>WW minutes</td>
+    </tr>
+    <tr>
+        <td>Privacy</td>
+        <td>N/A</td>
+        <td>YES privacy</td>
+    </tr>
+</tbody>
+</table>
+
+
+[[AdvancedChoices]]
+[[Choice]]
+<p>Preference</p>
+
+[[AdvancedAnswers]]
+[[Answer:0]]
+<p>&nbsp;</p>
+
+[[Answer:1]]
+<p>&nbsp;</p>
+
