@@ -128,3 +128,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# for now, do not publish data publicly
+data/*.csv 
