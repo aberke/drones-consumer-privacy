@@ -9,7 +9,7 @@ VENDOR_TYPES = ['take-out food', '']
 
 # Delivery fee
 COST_LEVELS = [
-    [1, 3, 5, 8],
+    [0, 1, 3, 5],
     [],
 ]
 

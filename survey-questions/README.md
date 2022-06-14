@@ -10,7 +10,7 @@ Define attributes for the choice sets.
 
 ## 2. Generate choice sets.
 
-Use the define attributes to generate choice sets in a CSV from which well formatted Questions will be generated.
+Use the defined attributes to generate choice sets in a CSV from which well formatted Questions will be generated.
 
 Each row represents a choice between a ground vehicle delivery option and a drone delivery option.
 
@@ -82,7 +82,7 @@ Import the AdvancedFormat .txt from (3) into Qualtrics and go from there, applyi
 
 ## Qualtrics gotcha's:
 
-- The "Preview" view does not always look like the "Publish" view. In particular on mobile.
+- The "Preview" view does not always look like the "Publish" view. This is particularly the case on mobile.
 - A good debug / testing technique: Have a scratch/test copy of the survey that you do all tests in. Publish all changes and view.
 
 
