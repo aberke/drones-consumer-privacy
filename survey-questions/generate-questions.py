@@ -43,7 +43,7 @@ QUESTION_TEMPLATE = Template(
     """
 
     [[Question:Matrix]]
-    [[ID:Q_v${v}_gc${gc}_gt${gt}_dc${dc}_dc${dc}_dp${dp}]]
+    [[ID:CHOICE_v${v}_gc${gc}_gt${gt}_dc${dc}_dt${dt}_dp${dp}]]
 
     <style>
     .test-style {
