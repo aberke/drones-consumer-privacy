@@ -63,7 +63,7 @@ The script encodes attributes into Question IDs.
     - drone privacy: 1
 
 Answers are 'recoded'
-- 0:ground vehicle
+- 0: ground vehicle
 - 1: drone
 - Note: Use "numeric" data export from Qualtrics to get answer codes.
 
@@ -84,6 +84,16 @@ Import the AdvancedFormat .txt from (3) into Qualtrics and go from there, applyi
 
 - The "Preview" view does not always look like the "Publish" view. This is particularly the case on mobile.
 - A good debug / testing technique: Have a scratch/test copy of the survey that you do all tests in. Publish all changes and view.
+
+
+## Survey versions
+
+
+### version: ICRAT 
+There was a separate "ICRAT" version of the survey where we tested ideas at ICRAT (conference).
+
+[preview](https://mit.co1.qualtrics.com/jfe/preview/SV_5hcBQuYS69mUgVo?Q_CHL=preview&Q_SurveyVersionID=current)
+
 
 
 

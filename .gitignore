@@ -130,4 +130,4 @@ dmypy.json
 .pyre/
 
 # for now, do not publish data publicly
-data/*.csv 
+# data/*.csv 
