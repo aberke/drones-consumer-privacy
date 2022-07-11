@@ -24,11 +24,11 @@ def generate_question_txt(question_dict):
     v = int(question_dict['v'])
     question_dict.update({
         'v_value': VENDOR_TYPES[v],
-        'gc_value': COST_LEVELS[v][int(question_dict['gc'])],
-        'dc_value': COST_LEVELS[v][int(question_dict['dc'])],
-        'gt_value': TIME_LEVELS[v][int(question_dict['gt'])],
-        'dt_value': TIME_LEVELS[v][int(question_dict['dt'])],
-        'dp_value': DRONE_PRIVACY_LEVELS[int(question_dict['dp'])]
+        'gc_value': COST_LEVELS[v][int(question_dict['gc'])][1],
+        'dc_value': COST_LEVELS[v][int(question_dict['dc'])][1],
+        'gt_value': TIME_LEVELS[v][int(question_dict['gt'])][1],
+        'dt_value': TIME_LEVELS[v][int(question_dict['dt'])][1],
+        'dp_value': DRONE_PRIVACY_LEVELS[int(question_dict['dp'])][1]
     })
     return QUESTION_TEMPLATE.substitute(question_dict)
 
@@ -113,13 +113,13 @@ QUESTION_TEMPLATE = Template(
         </tr>
         <tr>
             <td>Delivery fee</td>
-            <td>$$${gc_value}</td>
-            <td>$$${dc_value}</td>
+            <td>${gc_value}</td>
+            <td>${dc_value}</td>
         </tr>
         <tr>
             <td>Delivery wait time</td>
-            <td>${gt_value} minutes</td>
-            <td>${dt_value} minutes</td>
+            <td>${gt_value}</td>
+            <td>${dt_value}</td>
         </tr>
         <tr>
             <td>Privacy</td>

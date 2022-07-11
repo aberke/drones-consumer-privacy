@@ -54,7 +54,7 @@ $ python survey-questions/generate-questions.py survey-questions/choice-sets/v0-
 ### Encoding choice attributes/data into questions
 
 The script encodes attributes into Question IDs.
- - e.g. Question ID: Q_v1_gc1_gt1_dc1_dt1_dp1 correspond to parameters:
+ - e.g. Question ID: CHOICE_v1_gc1_gt1_dc1_dt1_dp1 correspond to parameters:
     - vendor type: 1
     - ground vehicle fee: 1
     - ground vehicle time: 1
