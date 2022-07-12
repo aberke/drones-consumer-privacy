@@ -6,24 +6,29 @@
 # Except for drone privacy.
 # Attribute levels are the same for drone and ground vehicles.
 
+# for survey-v1: vendors v0,v2,v3 have same attribute level values.
+
 VENDOR_TYPES = [
-    'take-out food', 
-    'prescription medications',
-    ''
+    ('take-out food', 'take-out food'),
+    ('prescription medications', 'prescription medications'),
+    ('liquor store', 'items from a liquor store'),
+    ('last-minute groceries', 'last-minute groceries'),
 ]
 
 # Delivery fee
 COST_LEVELS = [
     [(0, "$0"), (1, "$1"), (3, "$3"), (5, "$5")],
     [(0, "$0"), (1, "$1"), (5, "$5"), (10, "$10")],
-    [],
+    [(0, "$0"), (1, "$1"), (3, "$3"), (5, "$5")],
+    [(0, "$0"), (1, "$1"), (3, "$3"), (5, "$5")],
 ]
 
 # Delivery wait time in minutes
 TIME_LEVELS = [
     [(15, "15 minutes"), (20, "20 minutes"), (30, "30 minutes"), (45, "45 minutes")],
     [(30, "30 minutes"), (120, "2 hrs"), (360, "6 hrs"), (1440, "1 day")],
-    [],
+    [(15, "15 minutes"), (20, "20 minutes"), (30, "30 minutes"), (45, "45 minutes")],
+    [(15, "15 minutes"), (20, "20 minutes"), (30, "30 minutes"), (45, "45 minutes")],
 ]
 
 DRONE_PRIVACY_LEVELS = [

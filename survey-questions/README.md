@@ -48,7 +48,7 @@ This is to better enable data analysis when data is exported with Question IDs a
 
 example usage:
 ```
-$ python survey-questions/generate-questions.py survey-questions/choice-sets/v0-sampled-100.csv
+$ python survey-questions/generate-questions.py survey-questions/choice-sets/surveyv1-choices-vendor0-sampled-100.csv
 ```
 
 ### Encoding choice attributes/data into questions

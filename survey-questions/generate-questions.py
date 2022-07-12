@@ -23,7 +23,7 @@ def generate_questions_block_txt(filepath):
 def generate_question_txt(question_dict):
     v = int(question_dict['v'])
     question_dict.update({
-        'v_value': VENDOR_TYPES[v],
+        'v_value': VENDOR_TYPES[v][1],
         'gc_value': COST_LEVELS[v][int(question_dict['gc'])][1],
         'dc_value': COST_LEVELS[v][int(question_dict['dc'])][1],
         'gt_value': TIME_LEVELS[v][int(question_dict['gt'])][1],
@@ -90,7 +90,7 @@ QUESTION_TEMPLATE = Template(
     </style>
 
     <p>Suppose you order ${v_value} for delivery to your home.</p>
-    <p>Given the following delivery options, which <strong>one</strong> would you prefer?</p>
+    <p>Given the following delivery options, which would you prefer?</p>
 
     <br/>
     <br/>
