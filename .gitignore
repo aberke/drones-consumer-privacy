@@ -129,5 +129,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Do not keep biogeme generated files
+data-analysis/*.pickle
+data-analysis/*.html
+data-analysis/*.iter
+
 # for now, do not publish data publicly
 # data/*.csv 
