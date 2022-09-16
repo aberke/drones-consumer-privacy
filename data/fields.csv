@@ -1,0 +1,37 @@
+,field
+Duration (in seconds),Duration (in seconds)
+Finished,Finished
+RecordedDate,Recorded Date
+ResponseId,Response ID
+Q-attn-number-21,Please select the number shown.
+Q_online_shopping,How often (on average) do you make online shopping purchases?
+Q_takeout_food,How often (on average) do you have take-out food delivered to your home?
+Q_online_groceries,How often (on average) do you purchase your groceries online?
+Q_habits_attn_check,How closely are you paying attention? This is an attention check. Select all answers to this question to pass.
+Q_v_0_why_no,What are your reasons for never ordering     take-out food for delivery to your home? (Select all that apply) - Selected Choice
+Q_v_0_why_no_4_TEXT,What are your reasons for never ordering     take-out food for delivery to your home? (Select all that apply) - Other - Text
+Q_v_1,"Suppose there is a company that specializes in delivering prescription medications and offers service in your area, and the total price is similar to local pharmacies. If you needed prescription medications, would you ever order them from this company for delivery to your home?"
+Q_v_1_why_no,What are your reasons for never ordering     medications from a prescription medications delivery service for delivery to your home? (Select all that apply) - Selected Choice
+Q_v_1_why_no_4_TEXT,What are your reasons for never ordering     medications from a prescription medications delivery service for delivery to your home? (Select all that apply) - Other - Text
+Q_v_2,Would you ever order items from a liquor store for delivery to your home?
+Q_v_2_why_no,What are your reasons for never ordering     products from a local liquor store for delivery to your home? (Select all that apply) - Selected Choice
+Q_v_2_why_no_4_TEXT,What are your reasons for never ordering     products from a local liquor store for delivery to your home? (Select all that apply) - Other - Text
+Q_v_attn_check_1,"Suppose this is an attention check. Given this is an attention check, can you please choose both options below?                    Option Choose me Choose me   Delivery fee $0 $0   Delivery wait time N/A minutes N/A minutes   Privacy N/A N/A privacy - Preference"
+Q_gender,What is your gender?
+Q_age,What is your age?
+Q_race,Choose one or more races that you consider yourself to be:
+Q_income,What was your entire household income in the previous year before taxes? Please give your best guess.
+Q_urban_rural,Which best describes where you live?
+Q_residence_type,What type of residence do you live in? - Selected Choice
+Q_residence_type_3_TEXT,What type of residence do you live in? - Other - Text
+Q_state,"50 States, D.C. and Puerto Rico"
+Q_comments,Thank you for taking the survey. When you continue you will be redirected to Prolific and your submission will be recorded.  Do you have any extra comments? Was anything unclear? (optional)
+PROLIFIC_PID,PROLIFIC_PID
+STUDY_ID,STUDY_ID
+online_shopping,online_shopping
+takeout_food_delivery,takeout_food_delivery
+online_groceries,online_groceries
+prescription_medications_delivery,prescription_medications_delivery
+last_minute_groceries_delivery,last_minute_groceries_delivery
+liquor_store_delivery,liquor_store_delivery
+questions_asked,questions_asked
