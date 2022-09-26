@@ -13,6 +13,8 @@ Link to survey preview: https://mit.co1.qualtrics.com/jfe/preview/previewId/f315
 The raw data directly exported from Qualtrics is not made publicly accessible.
 This raw data is preprocessed and the cleaned resulting data is made publicly accessible.
 
+The data collection and (de-identified) publication was approved by the MIT IRB (E-3924).
+
 #### Preprocessing
 
 The preprocessing step removes Prolific IDs (potentially identifying info) and drops responses from participants whose data should be excluded (e.g. failed attention checks, tests from us, did not complete survey).
