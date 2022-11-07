@@ -143,3 +143,6 @@ data-analysis/*.iter
 # instead we preprocess it to remove potentially identifying info
 # and publish the cleaned version
 data/*sample-raw.csv
+
+# do not commit any other notebooks/files that may show participant IDs
+data-analysis/survey-debug.ipynb
