@@ -1,11 +1,21 @@
 # drones-consumer-privacy
 
+This repository includes data and code used to conduct a discrete mode choice experiment.
+
+A survey was designed with hundreds of choice questions. The data collected is then used to design and calibrate model choice models.
 
 
 ## Data and data collection procedure
 
 Data was collected via a Qualtrics survey.
 Link to survey preview: https://mit.co1.qualtrics.com/jfe/preview/previewId/f3158b16-5eeb-4088-925e-ecfa997bd4a4/SV_6mmF0a0AcjAgoqq?Q_CHL=preview&Q_SurveyVersionID=current
+
+
+## Choice question generation
+
+Choice questions were generated programmatically and then imported into Qualtrics.
+
+See survey-questions/
 
 
 ### Data
