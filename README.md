@@ -8,7 +8,7 @@ The data also contains useful information about use of delivery services by diff
 
 You are welcome to use our data, code and methodology. Please cite as: 
 
-> Alex Berke, Geoffrey Ding, Christopher Chin, Karthik Gopalakrishnan, Kent Larson, Hamsa Balakrishnan, Max Z. Li, Drone delivery and the value of customer privacy: A discrete choice experiment with U.S. consumers, Transportation Research Part C: Emerging Technologies, Volume 157, 2023, 104391, ISSN 0968-090X,https://doi.org/10.1016/j.trc.2023.104391.
+> Alex Berke, Geoffrey Ding, Christopher Chin, Karthik Gopalakrishnan, Kent Larson, Hamsa Balakrishnan, Max Z. Li, Drone delivery and the value of customer privacy: A discrete choice experiment with U.S. consumers, Transportation Research Part C: Emerging Technologies, Volume 157, 2023, 104391, ISSN 0968-090X, https://doi.org/10.1016/j.trc.2023.104391.
 
 ### Abstract
 
