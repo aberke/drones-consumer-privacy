@@ -24,6 +24,8 @@ Our survey instrument was designed to conduct a discrete mode choice experiment.
 Data was collected via a Qualtrics survey.
 Link to survey preview: https://mit.co1.qualtrics.com/jfe/preview/previewId/f3158b16-5eeb-4088-925e-ecfa997bd4a4/SV_6mmF0a0AcjAgoqq?Q_CHL=preview&Q_SurveyVersionID=current
 
+See the [flowchart](survey-flowchart.jpg) and [survey PDF](survey.PDF) for a summary of the survey design and questions.
+
 
 ### Choice question generation
 
